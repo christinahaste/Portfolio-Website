@@ -1,123 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="icon" href="/Images/logo.png">
-    <title>Christina Haste | Web Developer</title>
-</head>
-
-<body>
-  <header>
-    <span id="logo">&lt;CH&gt;</span>
-   <nav class="navbar">
-    <input type="checkbox" id="toggler">
-    <label for="toggler"><img src="/Images/menu.png" alt="menu icon" width="25px"></label>
-      <div class="menu">
-        <ul class="list">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="icon" href="/images/logo.png" />
+    <title>Christina Haste | Developer</title>
+  </head>
+  <body>
+    <header>
+      <span id="logo">&lt;CH&gt;</span>
+      <nav class="navbar">
+        <input type="checkbox" id="toggler" />
+        <label for="toggler"
+          ><img src="/images/menu.png" alt="menu icon" width="25px"
+        /></label>
+        <div class="menu">
+          <ul class="list">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contactme">Contact</a></li>
-        </ul>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="introduction" id="home">
+      <h2 id="type_text"></h2>
+      <p class="paragraph-one" id="para1"></p>
+      <a href="/cv/ChristinaHasteCV.pdf" download="ChristinaHasteCV.pdf"
+        ><button class="cv-button">Download CV</button></a
+      >
+    </div>
+
+    <div class="about" id="about">
+      <br />
+      <p>
+        Hello, I'm Christina, a Junior Full-stack Developer located in London,
+        UK. I have always had a passion for design and an interest in what makes
+        websites work. In the last year through online tutorials I have had the
+        chance to learn the basics of HTML, CSS and Javascript and having
+        recently developed my skills on a 12-week Software Development Bootcamp
+        I am ready to gain industry experience and kickstart my career.
+      </p>
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </nav>
-  </header>
-  
-<div class="introduction" id="home">
-    <h2 id="type_text"></h2>
-    <p class="para1" id="para1"></p>
-    <a href="" download="CV/ChristinaHaste CV.pdf"><button class="cv-button">Download CV</button></a>
-</div>           
-
-<div class="about" id="about">  
-<br>
-<p>Hello, I'm Christina, a Junior Full-stack Developer located in London, UK.  I have always had a passion for design and an interest in what makes websites work.  In the last year through online tutorials I have had the chance to learn the basics of HTML, CSS and Javascript and having recently completed a 12-week Software Development Bootcamp I am ready to kickstart my career in the industry.
-</p> 
-
-<div class="arrow">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-</div>
-
-<h2 class="projects-title" id="projects">My Projects</h2>
-<div class="projects">
-  <img src="/Images/weatherapp.img" alt="My First Project" class="project-one-img">
-  <h3 class="project-one-text">Local Weather App</h3>
-  <p class="project-one-text">Created using HTML, CSS and Vanilla Javascript. Connects to Open Weather API to provide the weather at the users current location. Background image and icon change depending on the temperature.</p> 
-  <a href="/PROJECTS/WEATHER APP/index.html"><button id="live" class="project-button">Live</button></a>
-  <a href="#"><button id="code" class="project-button">Code</button></a>
-
-  <h3 id="project-two">Four-in-a-row Game</h3>
-  <p class="project-two-text">Created using CSS Grid and Javascript. Play a Connect 4 style game. Makes use of modal windows.</p>
-  <img src="/Images/connectFour.img" alt="My Second Project" class="project-two-img">
-  <a href="/PROJECTS/gridConnect4/index.html"><button id="live-two" class="project-button">Live</button></a>
-  <a href="#"><button id="code-two" class="project-button">Code</button></a>
-
-  <img src="/Images/Python.img" alt="My First Project" class="project-three-img">
-  <h3 id="project-three">Brazilian Beats</h3>
-  <p class="project-three-text">Created using SQLite and Python.  Displays a database of music that can be edited by the user to add, delete, update or print items.</p> 
-  <a href="/PROJECTS/DatabasePython/brasil.html"><button id="live-three" class="project-button live-three">Live</button></a>
-  <a href=""><button id="code-three" class="project-button">Code</button></a>
-</div>
-
-
-
-<div class="languages" id="skills">
-<h2>Skills</h2>
-  <div class="icons">
-    <i class="devicon-html5-plain-wordmark" class="img1"></i>
-    <i class="devicon-css3-plain-wordmark"class="img2"></i>
-    <i class="devicon-javascript-plain colored" class="img3"></i>
-    <i class="devicon-bootstrap-plain-wordmark" class="img4"></i>
-    <i class="devicon-python-plain-wordmark colored" class="img5"></i>
-    <i class="devicon-flask-original-wordmark" class="img6"></i>
-    <i class="devicon-mysql-plain-wordmark" class="img7"></i>
-    <i class="devicon-mongodb-plain-wordmark colored" class="img8"></i>
-    <i class="devicon-github-original-wordmark colored"></i>
-  </div>
-<hr>
-</div>
-
-<div class="contactMe" id="contactme">
-<h2 class="contact">GET IN TOUCH</h2>
-  <p>Fill out the form below to send me a message.</p>
-  <form
-    action="https://formspree.io/f/mjvljvlj"
-    method="POST"
-    enctype="multipart/form-data">
-    <div class="waysToContact">
-    <label class="one">
-    YOUR NAME:
-    <input type="text" name="name">
-    </label>
-    <label class="two">
-    YOUR EMAIL:
-    <input type="email" name="email">
-    </label>
-    <label class="three">
-    YOUR MESSAGE:
-    <textarea name="message" id="" cols="30" rows="10"></textarea>
-    </label>
-    <button type="submit" class="five">Send</button>
-
-    <div class="four">    <p>Alternatively please feel free to contact me by email or via my LinkedIn.</p>
-    <a class="btn" href="mailto:christina.haste@hotmail.com"><img src="/Images/mail.png" alt="email address" width="50px" height="50px"></a>
-    <img src="/Images/linkedin.png" alt="Linked In link" width="50px" height="50px">
     </div>
-    </div>
-  </form>
 
-<div class="footer">
-<p>Christina Haste &copy; 2022</p>
-</div>
-</div>
-<script src="/js/script.js"></script>
-</body>
+    <h2 class="projects-title" id="projects">My Projects</h2>
+    <div class="projects">
+      <img
+        src="/images/weather-app.img"
+        alt="My First Project"
+        class="project-one-img"
+      />
+      <h3 class="project-one-text">Local Weather App</h3>
+      <p class="project-one-text">
+        Created using HTML, CSS and Vanilla Javascript. Connects to Open Weather
+        API to provide the weather at the users current location. Background
+        image and icon change depending on the temperature.
+        <br />
+        <a href="/projects/weather-app/index.html" target="_blank"
+          ><button id="live" class="project-button">Live</button></a
+        >
+        <a
+          href="https://github.com/christinahaste/Local-Weather-App"
+          target="_blank"
+          ><button id="code" class="project-button">Code</button></a
+        >
+      </p>
+
+      <h3 id="project-two">Four-in-a-row Game</h3>
+      <p class="project-two-text">
+        A Connect-Four-style game using CSS Grid and Javascript for
+        functionality. Makes use of modal windows on opening and to display
+        instructions and results to users.
+        <br />
+        <a href="/projects/grid-connect4/index.html" target="_blank"
+          ><button id="live-two" class="project-button">Live</button></a
+        >
+        <a
+          href="https://github.com/christinahaste/Four-in-a-row-Game"
+          target="_blank"
+          ><button id="code-two" class="project-button">Code</button></a
+        >
+      </p>
+      <img
+        src="/images/connect-four.img"
+        alt="My Second Project"
+        class="project-two-img"
+      />
+
+      <img
+        src="/images/python-project.img"
+        alt="My First Project"
+        class="project-three-img"
+      />
+      <!--Photo by Agustin Diaz Gargiulo on Unsplash-->
+      <h3 id="project-three">Brazilian Beats</h3>
+      <p class="project-three-text">
+        A database of music created using Python and SQLite. Using CRUD
+        functionality user can change and display database. This project is
+        displayed on Replit.
+        <br />
+        <a href="/projects/brazilian-beats/brasil.html" target="_blank"
+          ><button id="live-three" class="project-button live-three">
+            Live
+          </button></a
+        >
+        <a
+          href="https://github.com/christinahaste/brazilian-beats"
+          target="_blank"
+          ><button id="code-three" class="project-button">Code</button></a
+        >
+      </p>
+    </div>
+
+    <div class="languages" id="skills">
+      <h2>Skills</h2>
+      <div class="icons">
+        <i class="devicon-html5-plain-wordmark" class="img1"></i>
+        <i class="devicon-css3-plain-wordmark" class="img2"></i>
+        <i class="devicon-javascript-plain colored" class="img3"></i>
+        <i class="devicon-bootstrap-plain-wordmark" class="img4"></i>
+        <i class="devicon-python-plain-wordmark colored" class="img5"></i>
+        <i class="devicon-flask-original-wordmark" class="img6"></i>
+        <i class="devicon-mysql-plain-wordmark" class="img7"></i>
+        <i class="devicon-mongodb-plain-wordmark colored" class="img8"></i>
+        <i class="devicon-github-original-wordmark colored"></i>
+      </div>
+      <hr />
+    </div>
+    <div class="contact-me" id="contactme">
+      <h2 class="contact">GET IN TOUCH</h2>
+      <p>Fill out the form below to send me a message.</p>
+      <form
+        action="https://formspree.io/f/mjvljvlj"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <div class="ways-contact">
+          <label class="one">
+            YOUR NAME:
+            <input type="text" name="name" />
+          </label>
+          <label class="two">
+            YOUR EMAIL:
+            <input type="email" name="email" />
+          </label>
+          <label class="three">
+            YOUR MESSAGE:
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+          </label>
+          <button type="submit" class="five">Send</button>
+
+          <div class="four">
+            <p>
+              Alternatively please feel free to contact me by email or via my
+              LinkedIn.
+            </p>
+            <a class="btn" href="mailto:christina.haste@hotmail.com"
+              ><img
+                src="/Images/mail.png"
+                alt="email address"
+                width="30px"
+                height="30px"
+            /></a>
+            <a href="https://www.linkedin.com/in/christina-haste/"
+              ><img
+                src="/Images/linkedin.png"
+                alt="Linked In link"
+                width="30px"
+                height="30px"
+            /></a>
+            <a href="https://github.com/christinahaste"
+              ><img
+                src="/Images/github.png"
+                alt="Github link"
+                width="30px"
+                height="30px"
+            /></a>
+          </div>
+        </div>
+      </form>
+
+      <div class="footer">
+        <p>Christina Haste &copy; 2022</p>
+      </div>
+
+      <!--<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>-->
+
+      <script src="/js/script.js"></script>
+    </div>
+  </body>
 </html>
